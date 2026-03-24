@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"devices/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "core::@57760688d1f824db5d9c"
+		}
+	],
+	"id" : "devices_autogen_timestamp_deps::@0b66dd025354e08ea917",
+	"isGeneratorProvided" : true,
+	"name" : "devices_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "devices",
+		"source" : "devices"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

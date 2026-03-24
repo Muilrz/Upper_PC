@@ -1,0 +1,837 @@
+2026-01-20T00:17:10.401 Logger started
+2026-01-20T00:17:10.520 {"payload":{"payload":{},"topic":"sys/reset","ts":1768839430495},"topic":"sys/reset"}
+2026-01-20T00:17:12.825 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:17:12.826 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:17:12.827 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:17:12.828 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:17:14.212 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:17:14.850 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:17:14.850 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:17:14.854 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:17:16.862 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:17:16.862 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:17:18.334 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:17:18.334 {"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:17:20.415 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:17:20.415 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:17:20.416 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:17:22.420 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:17:22.420 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:17:22.491 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:17:22.493 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:17:22.493 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:17:24.495 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:17:24.495 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:17:27.074 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:17:27.074 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:17:27.075 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:17:29.077 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:17:29.078 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:18:56.330 Logger started
+2026-01-20T00:18:56.459 {"payload":{"payload":{},"topic":"sys/reset","ts":1768839536429},"topic":"sys/reset"}
+2026-01-20T00:18:58.132 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:18:58.133 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:18:58.133 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:18:58.134 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:19:00.468 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:19:01.077 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:19:01.077 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:19:01.078 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:19:02.306 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:19:02.306 {"payload":{"position":2,"serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:19:03.706 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:19:03.707 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:19:03.708 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:19:05.084 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:19:05.085 {"payload":{"text":"readOnce(After-Flip): pos=2 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:19:07.707 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:19:07.708 {"payload":{"text":"readOnce(After-Flip): pos=2 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:19:09.403 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:19:09.403 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:19:09.404 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:19:13.396 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:19:13.397 {"payload":{"text":"readOnce(After-Flip): pos=2 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:21:35.073 Logger started
+2026-01-20T00:21:35.204 {"payload":{"payload":{},"topic":"sys/reset","ts":1768839695176},"topic":"sys/reset"}
+2026-01-20T00:21:36.987 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:21:36.988 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:21:36.989 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:21:36.989 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:21:38.740 {"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+2026-01-20T00:21:39.361 {"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+2026-01-20T00:21:39.361 {"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+2026-01-20T00:21:39.362 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:21:40.270 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:21:40.271 {"payload":{"position":1,"serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-20T00:21:43.369 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-20T00:21:43.369 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:21:45.044 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:21:45.045 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:21:45.046 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:21:49.037 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-20T00:21:49.038 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:21:55.251 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:21:55.252 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:21:55.253 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:21:59.242 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-20T00:21:59.243 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:22:02.302 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:22:02.302 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:22:02.305 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:22:06.302 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-20T00:22:06.303 {"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+2026-01-20T00:29:15.936 Logger started
+2026-01-20T00:29:16.072 {"payload":{"payload":{},"topic":"sys/reset","ts":1768840156041},"topic":"sys/reset"}
+2026-01-20T00:29:19.855 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:29:19.855 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:29:19.856 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:29:19.857 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:29:23.325 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:29:23.327 {"payload":{"position":-1,"serial":""},"topic":"evt/mff/position"}
+2026-01-20T00:29:23.327 {"payload":{"text":"readPosition: 未连接设备"},"topic":"evt/mff/error"}
+2026-01-20T00:29:25.585 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:29:25.586 {"payload":{"text":"flip failed: 未连接设备"},"topic":"evt/mff/error"}
+2026-01-20T00:29:25.587 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:29:33.217 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:29:33.218 {"payload":{"text":"flip failed: 未连接设备"},"topic":"evt/mff/error"}
+2026-01-20T00:29:33.218 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:29:35.583 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:29:35.583 {"payload":{"text":"flip failed: 未连接设备"},"topic":"evt/mff/error"}
+2026-01-20T00:29:35.584 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:29:38.960 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:29:39.572 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:29:39.573 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:29:39.574 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:29:41.363 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:29:41.365 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:29:41.366 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:29:41.577 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:29:41.577 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:29:43.375 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:29:43.376 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:29:43.609 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:29:43.609 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:29:43.610 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:29:45.600 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:29:45.600 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:29:47.898 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:29:47.898 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:29:47.899 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:29:49.901 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:29:49.902 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:29:50.944 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:29:50.944 {"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:29:52.203 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:29:52.204 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:29:52.205 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:29:53.164 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:29:53.164 {"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:29:54.200 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:29:54.200 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:29:54.280 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:29:54.280 {"payload":{"position":2,"serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:30:00.911 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:30:00.911 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:30:00.912 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:30:02.918 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:30:02.918 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:33:15.877 Logger started
+2026-01-20T00:33:16.000 {"payload":{"payload":{},"topic":"sys/reset","ts":1768840395975},"topic":"sys/reset"}
+2026-01-20T00:33:18.886 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:33:18.887 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:33:18.887 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:33:18.888 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:33:20.530 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:33:20.530 {"payload":{"position":-1,"serial":""},"topic":"evt/mff/position"}
+2026-01-20T00:33:20.530 {"payload":{"text":"readPosition: 未连接设备"},"topic":"evt/mff/error"}
+2026-01-20T00:33:23.922 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-20T00:33:23.922 {"payload":{"position":-1,"serial":""},"topic":"evt/mff/position"}
+2026-01-20T00:33:23.923 {"payload":{"text":"readPosition: 未连接设备"},"topic":"evt/mff/error"}
+2026-01-20T00:33:25.141 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:33:25.748 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:33:25.749 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:33:25.750 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:33:27.741 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:33:27.741 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:33:30.258 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:33:30.258 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:33:30.259 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:33:32.269 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:33:32.270 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:33:33.616 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:33:33.617 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:33:33.622 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:33:35.632 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:33:35.633 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:34:27.666 Logger started
+2026-01-20T00:34:27.784 {"payload":{"payload":{},"topic":"sys/reset","ts":1768840467758},"topic":"sys/reset"}
+2026-01-20T00:34:37.456 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:34:37.457 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:34:37.457 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:34:37.458 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:34:39.971 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:34:40.585 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:34:40.585 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:34:40.586 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:34:41.587 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:34:41.587 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:34:43.039 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:34:43.039 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:34:43.040 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:34:44.040 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:34:44.041 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:34:54.081 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:34:54.081 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:34:54.082 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:34:55.083 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:34:55.083 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:38:51.473 Logger started
+2026-01-20T00:38:51.592 {"payload":{"payload":{},"topic":"sys/reset","ts":1768840731565},"topic":"sys/reset"}
+2026-01-20T00:39:03.004 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:39:03.005 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:39:03.006 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:39:03.006 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:39:05.283 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:39:05.911 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:39:05.912 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:39:05.912 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:39:06.913 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:39:06.913 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:39:11.993 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:39:11.993 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:39:11.997 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:39:12.993 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:39:12.994 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:39:15.027 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:39:15.028 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:39:15.029 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:39:16.028 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:39:16.030 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:39:18.223 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:39:18.223 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:39:18.228 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:39:19.226 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:39:19.227 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:39:22.402 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:39:22.402 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:39:22.402 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:39:23.405 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:39:23.406 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:39:25.509 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:39:25.509 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:39:25.510 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:39:26.512 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:39:26.513 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:41:01.709 Logger started
+2026-01-20T00:41:01.829 {"payload":{"payload":{},"topic":"sys/reset","ts":1768840861805},"topic":"sys/reset"}
+2026-01-20T00:41:09.616 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:41:09.617 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:41:09.617 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:41:09.618 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:41:11.378 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:41:11.950 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:41:11.950 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:41:11.951 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:41:13.451 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:41:13.452 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:41:15.422 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:41:15.423 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:41:15.431 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:41:16.925 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:41:16.926 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:41:18.325 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:41:18.326 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:41:18.326 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:41:19.827 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:41:19.827 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:41:22.484 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:41:22.484 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:41:22.487 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:41:23.984 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:41:23.985 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:42:55.505 Logger started
+2026-01-20T00:42:55.629 {"payload":{"payload":{},"topic":"sys/reset","ts":1768840975602},"topic":"sys/reset"}
+2026-01-20T00:42:57.982 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:42:57.983 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:42:57.983 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:42:57.984 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:42:58.725 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:42:59.348 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:42:59.349 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:42:59.350 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:43:01.365 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:43:01.367 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:43:03.912 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:43:03.912 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:43:03.916 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:43:05.915 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:43:05.916 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:43:10.135 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:43:10.136 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:43:10.136 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:43:12.149 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:43:12.149 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:43:16.136 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:43:16.137 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:43:16.138 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:43:18.138 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:43:18.139 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:47:42.061 Logger started
+2026-01-20T00:47:42.186 {"payload":{"payload":{},"topic":"sys/reset","ts":1768841262159},"topic":"sys/reset"}
+2026-01-20T00:47:43.702 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T00:47:43.703 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T00:47:43.704 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T00:47:43.704 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T00:47:44.416 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T00:47:45.000 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T00:47:45.000 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T00:47:45.001 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T00:47:46.001 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:47:46.002 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T00:47:47.948 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T00:47:47.948 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:47:47.952 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T00:47:48.948 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:47:48.949 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T00:47:51.031 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T00:47:51.031 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:47:51.032 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T00:47:52.033 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T00:47:52.034 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T01:07:13.796 Logger started
+2026-01-20T01:07:13.914 {"payload":{"payload":{},"topic":"sys/reset","ts":1768842433890},"topic":"sys/reset"}
+2026-01-20T01:07:15.552 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-20T01:07:15.554 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-20T01:07:15.554 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-20T01:07:15.555 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-20T01:07:17.039 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-20T01:07:17.679 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-20T01:07:17.681 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-20T01:07:17.681 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-20T01:07:18.684 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T01:07:18.684 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T01:07:19.725 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T01:07:19.726 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T01:07:19.727 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T01:07:20.729 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T01:07:20.730 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-20T01:07:22.153 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T01:07:22.154 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T01:07:22.154 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T01:07:23.155 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T01:07:23.156 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T01:07:26.530 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-20T01:07:26.532 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-20T01:07:26.533 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-20T01:07:27.532 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T01:07:27.532 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-20T01:07:30.137 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-20T01:07:30.138 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-20T01:07:30.138 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-20T01:07:31.139 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-20T01:07:31.140 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-21T04:04:30.723 Logger started
+2026-01-21T04:04:30.878 {"payload":{"payload":{},"topic":"sys/reset","ts":1768939470833},"topic":"sys/reset"}
+2026-01-21T04:04:33.450 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-21T04:04:33.451 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-21T04:04:33.452 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-21T04:04:33.452 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-21T04:04:36.252 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-21T04:04:36.744 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-21T04:04:36.744 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-21T04:04:36.745 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-21T04:04:37.746 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-21T04:04:37.746 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-21T04:04:44.941 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-21T04:04:44.942 {"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-21T04:04:46.403 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-21T04:04:46.403 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-21T04:04:46.408 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-21T04:04:47.405 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-21T04:04:47.406 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-21T04:04:49.911 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-21T04:04:49.913 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-21T04:04:49.914 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-21T04:04:50.914 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-21T04:04:50.915 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-21T04:04:58.184 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-21T04:04:58.184 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-21T04:04:58.185 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-21T04:04:59.185 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-21T04:04:59.186 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-21T04:05:02.387 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-21T04:05:02.387 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-21T04:05:02.388 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-21T04:05:03.389 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-21T04:05:03.389 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-21T04:05:14.462 {"payload":null,"topic":"cmd/mff/disconnect"}
+2026-01-21T04:05:15.342 {"payload":null,"topic":"evt/mff/disconnected"}
+2026-01-21T04:05:15.342 {"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+2026-01-21T04:05:17.771 {"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+2026-01-21T04:05:18.384 {"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+2026-01-21T04:05:18.384 {"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+2026-01-21T04:05:18.385 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-21T04:05:19.384 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-21T04:05:19.385 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-21T04:05:31.355 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-21T04:05:31.356 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-21T04:05:31.356 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-21T04:05:32.357 {"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-21T04:05:32.358 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-21T04:05:35.962 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-21T04:05:35.963 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-21T04:05:35.964 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-21T04:05:36.963 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-21T04:05:36.964 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:08:27.034 Logger started
+2026-01-25T22:08:27.181 {"payload":{"payload":{},"topic":"sys/reset","ts":1769350107140},"topic":"sys/reset"}
+2026-01-25T22:08:28.535 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-25T22:08:28.537 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-25T22:08:28.537 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-25T22:08:28.538 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-25T22:08:34.890 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-25T22:08:35.518 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-25T22:08:35.519 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-25T22:08:35.519 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:08:36.520 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:08:36.520 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:08:52.380 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:08:52.382 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:08:52.383 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:08:53.385 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:08:53.386 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:09:06.468 {"payload":null,"topic":"cmd/mff/disconnect"}
+2026-01-25T22:09:07.331 {"payload":null,"topic":"evt/mff/disconnected"}
+2026-01-25T22:09:07.332 {"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+2026-01-25T22:09:08.471 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-25T22:09:09.090 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-25T22:09:09.091 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-25T22:09:09.092 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:09:10.091 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:09:10.092 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:09:22.300 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:09:22.300 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:09:22.301 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:09:23.301 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:09:23.301 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:09:25.402 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:09:25.404 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:09:25.405 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:09:26.405 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:09:26.406 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:10:09.303 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:10:09.304 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:10:09.304 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:10:10.305 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:10:10.305 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:10:11.075 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:10:11.075 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:10:11.076 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:10:12.078 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:10:12.079 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:10:16.096 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:10:16.097 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:10:16.097 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:10:17.097 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:10:17.099 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:10:19.517 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:10:19.518 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:10:19.518 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:10:20.518 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:10:20.519 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:10:24.219 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:10:24.219 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:10:24.220 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:10:25.221 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:10:25.221 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:12:02.155 Logger started
+2026-01-25T22:12:02.276 {"payload":{"payload":{},"topic":"sys/reset","ts":1769350322249},"topic":"sys/reset"}
+2026-01-25T22:12:09.189 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-25T22:12:09.190 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-25T22:12:09.191 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-25T22:12:09.191 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-25T22:12:11.340 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-25T22:12:11.940 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-25T22:12:11.941 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-25T22:12:11.942 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:12:12.943 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:12:12.943 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:12:25.941 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:12:25.942 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:12:25.943 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:12:26.944 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:12:26.944 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:12:29.228 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:12:29.229 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:12:29.230 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:12:30.233 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:12:30.233 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:12:32.239 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:12:32.239 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:12:32.240 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:12:33.241 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:12:33.241 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:12:38.394 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-25T22:12:38.395 {"payload":{"position":2,"serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:12:40.971 {"payload":{"interval_ms":200},"topic":"cmd/mff/startPolling"}
+2026-01-25T22:12:40.972 {"payload":{"text":"polling started: 200 ms"},"topic":"evt/mff/log"}
+2026-01-25T22:12:42.275 {"payload":null,"topic":"cmd/mff/stopPolling"}
+2026-01-25T22:12:42.275 {"payload":{"text":"polling stopped"},"topic":"evt/mff/log"}
+2026-01-25T22:12:44.291 {"payload":null,"topic":"cmd/mff/disconnect"}
+2026-01-25T22:12:45.170 {"payload":null,"topic":"evt/mff/disconnected"}
+2026-01-25T22:12:45.171 {"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+2026-01-25T22:12:49.581 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-25T22:12:50.173 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-25T22:12:50.174 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-25T22:12:50.175 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:12:51.174 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:12:51.175 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:15:00.962 Logger started
+2026-01-25T22:15:01.092 {"payload":{"payload":{},"topic":"sys/reset","ts":1769350501064},"topic":"sys/reset"}
+2026-01-25T22:15:16.289 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-25T22:15:16.291 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-25T22:15:16.291 {"payload":[],"topic":"evt/mff/devices"}
+2026-01-25T22:15:16.291 {"payload":{"text":"refresh ok, found 0 device(s)"},"topic":"evt/mff/log"}
+2026-01-25T22:15:22.716 Logger started
+2026-01-25T22:15:22.850 {"payload":{"payload":{},"topic":"sys/reset","ts":1769350522822},"topic":"sys/reset"}
+2026-01-25T22:15:28.788 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-25T22:15:28.789 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-25T22:15:28.790 {"payload":["37000001"],"topic":"evt/mff/devices"}
+2026-01-25T22:15:28.790 {"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+2026-01-25T22:15:31.903 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-25T22:15:32.418 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-25T22:15:32.418 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-25T22:15:32.419 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:15:33.417 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:15:33.418 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:15:43.581 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:15:43.581 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:15:43.587 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:15:44.584 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:15:44.584 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:15:47.650 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:15:47.651 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:15:47.652 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:15:48.653 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:15:48.653 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:17:06.276 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:17:06.276 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:17:06.277 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:17:07.278 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:17:07.279 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:17:08.798 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:17:08.799 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:17:08.800 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:17:09.800 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:17:09.801 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:17:11.319 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:17:11.319 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:17:11.322 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:17:12.321 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:17:12.321 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:17:13.118 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:17:13.119 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:17:13.120 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:17:14.118 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:17:14.119 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:17:20.674 {"payload":{"interval_ms":200},"topic":"cmd/mff/startPolling"}
+2026-01-25T22:17:20.675 {"payload":{"text":"polling started: 200 ms"},"topic":"evt/mff/log"}
+2026-01-25T22:17:21.898 {"payload":null,"topic":"cmd/mff/stopPolling"}
+2026-01-25T22:17:21.899 {"payload":{"text":"polling stopped"},"topic":"evt/mff/log"}
+2026-01-25T22:17:22.866 {"payload":{"interval_ms":200},"topic":"cmd/mff/startPolling"}
+2026-01-25T22:17:22.867 {"payload":{"text":"polling started: 200 ms"},"topic":"evt/mff/log"}
+2026-01-25T22:17:23.643 {"payload":null,"topic":"cmd/mff/stopPolling"}
+2026-01-25T22:17:23.643 {"payload":{"text":"polling stopped"},"topic":"evt/mff/log"}
+2026-01-25T22:18:27.826 Logger started
+2026-01-25T22:18:27.958 {"payload":{"payload":{},"topic":"sys/reset","ts":1769350707928},"topic":"sys/reset"}
+2026-01-25T22:18:29.633 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-25T22:18:29.635 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-25T22:18:29.635 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-25T22:18:29.636 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-25T22:18:30.367 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-25T22:18:30.997 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-25T22:18:30.998 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-25T22:18:30.999 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:18:31.997 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:18:31.998 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:18:39.334 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:18:39.335 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:18:39.335 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:18:40.336 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:18:40.336 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:18:42.108 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:18:42.109 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:18:42.109 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:18:43.109 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:18:43.109 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:18:44.153 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:18:44.153 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:18:44.157 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:18:45.154 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:18:45.155 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:45:14.593 Logger started
+2026-01-25T22:45:14.716 {"payload":{"payload":{},"topic":"sys/reset","ts":1769352314685},"topic":"sys/reset"}
+2026-01-25T22:45:17.009 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-25T22:45:17.010 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-25T22:45:17.010 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-25T22:45:17.011 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-25T22:45:22.835 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-25T22:45:23.420 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-25T22:45:23.420 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-25T22:45:23.420 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:45:24.421 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-25T22:45:24.421 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:45:31.439 {"payload":null,"topic":"cmd/mff/disconnect"}
+2026-01-25T22:45:32.283 {"payload":null,"topic":"evt/mff/disconnected"}
+2026-01-25T22:45:32.283 {"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+2026-01-25T22:45:35.426 {"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+2026-01-25T22:45:36.055 {"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+2026-01-25T22:45:36.056 {"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+2026-01-25T22:45:36.057 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-25T22:45:37.056 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-25T22:45:37.056 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:45:38.374 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:45:38.374 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:45:38.380 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:45:39.374 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-25T22:45:39.374 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:45:40.317 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:45:40.318 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:45:40.319 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:45:41.319 {"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-25T22:45:41.320 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-25T22:45:43.047 {"payload":null,"topic":"cmd/mff/readPosition"}
+2026-01-25T22:45:43.048 {"payload":{"position":2,"serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-25T22:45:45.174 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-25T22:45:45.175 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:45:45.176 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-25T22:45:46.177 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-25T22:45:46.177 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-25T22:45:48.899 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-25T22:45:48.899 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:45:48.900 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-25T22:45:49.901 {"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-25T22:45:49.901 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:32:26.495 Logger started
+2026-01-26T03:32:26.628 {"payload":{"payload":{},"topic":"sys/reset","ts":1769369546592},"topic":"sys/reset"}
+2026-01-26T03:32:28.434 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-26T03:32:28.435 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-26T03:32:28.436 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-26T03:32:28.436 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-26T03:32:32.297 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-26T03:32:32.897 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-26T03:32:32.897 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-26T03:32:32.898 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-26T03:32:33.498 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:32:33.499 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:32:47.048 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:32:47.048 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:32:47.049 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:32:47.752 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:32:47.753 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:32:49.683 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T03:32:49.684 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:32:49.691 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:32:50.384 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:32:50.384 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:32:54.233 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:32:54.233 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:32:54.234 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:32:54.935 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:32:54.935 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:33:07.393 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T03:33:07.394 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:07.395 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:08.096 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:33:08.097 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:33:09.451 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:33:09.451 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:33:09.452 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:33:10.155 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:33:10.156 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:33:11.291 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T03:33:11.291 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:11.292 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:11.996 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:33:11.996 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:33:12.961 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:33:12.963 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:33:12.964 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:33:13.664 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:33:13.665 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:33:14.981 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T03:33:14.981 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:14.983 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:15.683 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:33:15.684 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:33:16.871 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:33:16.874 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:33:16.875 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:33:17.575 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:33:17.576 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:33:18.786 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T03:33:18.786 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:18.787 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:33:19.487 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:33:19.488 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:36:34.023 Logger started
+2026-01-26T03:36:34.152 {"payload":{"payload":{},"topic":"sys/reset","ts":1769369794123},"topic":"sys/reset"}
+2026-01-26T03:36:55.931 Logger started
+2026-01-26T03:36:56.061 {"payload":{"payload":{},"topic":"sys/reset","ts":1769369816031},"topic":"sys/reset"}
+2026-01-26T03:36:57.753 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-26T03:36:57.754 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-26T03:36:57.755 {"payload":["37000001"],"topic":"evt/mff/devices"}
+2026-01-26T03:36:57.756 {"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+2026-01-26T03:36:58.302 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-26T03:36:58.933 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-26T03:36:58.933 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-26T03:36:58.935 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-26T03:36:59.528 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:36:59.528 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:37:02.257 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:37:02.258 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:37:02.258 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:37:02.958 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:37:02.958 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:37:04.602 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T03:37:04.605 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:37:04.606 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:37:05.306 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:37:05.306 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:37:10.028 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:37:10.028 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:37:10.029 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:37:10.729 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:37:10.729 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T03:37:11.950 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T03:37:11.950 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:37:11.954 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T03:37:12.652 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:37:12.653 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T03:37:14.471 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T03:37:14.472 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:37:14.472 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T03:37:15.172 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T03:37:15.173 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:20.586 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:20.587 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:20.588 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:21.289 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:21.290 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:22.715 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:22.715 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:22.716 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:23.417 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:23.419 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:32.638 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:32.638 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:32.639 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:33.339 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:33.340 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:34.459 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:34.460 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:34.461 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:35.160 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:35.161 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:36.330 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:36.330 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:36.331 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:37.032 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:37.032 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:39.025 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:39.026 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:39.032 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:39.729 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:39.730 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:41.172 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:41.173 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:41.173 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:41.872 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:41.873 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:42.762 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:42.763 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:42.763 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:43.466 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:43.467 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:44.718 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:44.718 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:44.719 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:45.423 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:45.423 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:50.202 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:50.202 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:50.203 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:50.903 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:50.904 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:53.564 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:53.565 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:53.566 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:02:54.266 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:02:54.267 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:02:59.558 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:02:59.560 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:02:59.560 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:03:00.261 {"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:03:00.262 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:03:06.850 {"payload":null,"topic":"cmd/mff/disconnect"}
+2026-01-26T04:03:07.674 {"payload":null,"topic":"evt/mff/disconnected"}
+2026-01-26T04:03:07.674 {"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+2026-01-26T04:04:22.610 Logger started
+2026-01-26T04:04:22.731 {"payload":{"payload":{},"topic":"sys/reset","ts":1769371462703},"topic":"sys/reset"}
+2026-01-26T04:04:27.539 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-26T04:04:27.540 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-26T04:04:27.541 {"payload":["37000001"],"topic":"evt/mff/devices"}
+2026-01-26T04:04:27.541 {"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+2026-01-26T04:04:28.430 {"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+2026-01-26T04:04:29.053 {"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+2026-01-26T04:04:29.053 {"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+2026-01-26T04:04:29.054 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-26T04:04:29.644 {"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+2026-01-26T04:04:29.645 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:05:47.203 {"payload":null,"topic":"cmd/mff/disconnect"}
+2026-01-26T04:05:48.054 {"payload":null,"topic":"evt/mff/disconnected"}
+2026-01-26T04:05:48.055 {"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+2026-01-26T04:05:54.024 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-26T04:05:54.027 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-26T04:05:54.027 {"payload":["37000001"],"topic":"evt/mff/devices"}
+2026-01-26T04:05:54.028 {"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+2026-01-26T04:05:55.717 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-26T04:05:55.719 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-26T04:05:55.719 {"payload":["37000001"],"topic":"evt/mff/devices"}
+2026-01-26T04:05:55.720 {"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+2026-01-26T04:06:07.130 Logger started
+2026-01-26T04:06:07.280 {"payload":{"payload":{},"topic":"sys/reset","ts":1769371567241},"topic":"sys/reset"}
+2026-01-26T04:06:09.081 {"payload":null,"topic":"cmd/mff/refresh"}
+2026-01-26T04:06:09.082 {"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+2026-01-26T04:06:09.082 {"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+2026-01-26T04:06:09.083 {"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+2026-01-26T04:06:12.518 {"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+2026-01-26T04:06:13.144 {"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+2026-01-26T04:06:13.144 {"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+2026-01-26T04:06:13.145 {"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+2026-01-26T04:06:13.746 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-26T04:06:13.746 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:06:18.675 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:06:18.675 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:06:18.679 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:06:19.376 {"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-26T04:06:19.376 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:06:21.308 {"payload":{"pos":1},"topic":"cmd/mff/flip"}
+2026-01-26T04:06:21.309 {"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:06:21.309 {"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+2026-01-26T04:06:22.008 {"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-26T04:06:22.010 {"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+2026-01-26T04:06:24.832 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:06:24.832 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:06:24.833 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:06:25.535 {"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-26T04:06:25.535 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-26T04:06:40.524 {"payload":{"pos":2},"topic":"cmd/mff/flip"}
+2026-01-26T04:06:40.525 {"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:06:40.526 {"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+2026-01-26T04:06:41.227 {"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+2026-01-26T04:06:41.228 {"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+2026-01-28T16:36:48.227 Logger started
+2026-01-28T16:36:48.371 {"payload":{"payload":{},"topic":"sys/reset","ts":1769589408332},"topic":"sys/reset"}
+2026-01-28T16:38:21.924 Logger started
+2026-01-28T16:38:22.053 {"payload":{"payload":{},"topic":"sys/reset","ts":1769589502026},"topic":"sys/reset"}

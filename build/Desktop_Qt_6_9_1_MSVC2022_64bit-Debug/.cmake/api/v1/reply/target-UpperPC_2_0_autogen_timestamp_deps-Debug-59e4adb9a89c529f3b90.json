@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"app/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "core::@57760688d1f824db5d9c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "comm::@5d0950cb918126deea0d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "sim::@b622755370c2a46d4cb5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "devices::@0b66dd025354e08ea917"
+		}
+	],
+	"id" : "UpperPC_2_0_autogen_timestamp_deps::@5f5a17c01335469806cb",
+	"isGeneratorProvided" : true,
+	"name" : "UpperPC_2_0_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "app",
+		"source" : "app"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

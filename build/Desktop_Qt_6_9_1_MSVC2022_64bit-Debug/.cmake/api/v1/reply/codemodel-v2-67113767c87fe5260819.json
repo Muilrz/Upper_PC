@@ -1,0 +1,281 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "hal",
+					"jsonFile" : "directory-hal-Debug-9f72785f34fb507a8947.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "hal"
+				},
+				{
+					"build" : "core",
+					"jsonFile" : "directory-core-Debug-e3757ce4a321da3133c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "sim",
+					"jsonFile" : "directory-sim-Debug-20cd403779174efaa843.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sim",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "comm",
+					"jsonFile" : "directory-comm-Debug-fc24888809aa797d81bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "comm",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "devices",
+					"jsonFile" : "directory-devices-Debug-3d8699c5bdbc4c1e4b8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "devices",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "app",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-app-Debug-33118600087dd5270dd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "UpperPC_2_0",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "UpperPC_2_0::@5f5a17c01335469806cb",
+					"jsonFile" : "target-UpperPC_2_0-Debug-b03ce745a92522018b92.json",
+					"name" : "UpperPC_2_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UpperPC_2_0_autogen::@5f5a17c01335469806cb",
+					"jsonFile" : "target-UpperPC_2_0_autogen-Debug-41ff3d9ceefceb461717.json",
+					"name" : "UpperPC_2_0_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UpperPC_2_0_autogen_timestamp_deps::@5f5a17c01335469806cb",
+					"jsonFile" : "target-UpperPC_2_0_autogen_timestamp_deps-Debug-59e4adb9a89c529f3b90.json",
+					"name" : "UpperPC_2_0_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "comm::@5d0950cb918126deea0d",
+					"jsonFile" : "target-comm-Debug-b14ac344de66b53adf32.json",
+					"name" : "comm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "comm_autogen::@5d0950cb918126deea0d",
+					"jsonFile" : "target-comm_autogen-Debug-7b870e1d9e196fa7bd36.json",
+					"name" : "comm_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "comm_autogen_timestamp_deps::@5d0950cb918126deea0d",
+					"jsonFile" : "target-comm_autogen_timestamp_deps-Debug-11123871936311cf8e6d.json",
+					"name" : "comm_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "core::@57760688d1f824db5d9c",
+					"jsonFile" : "target-core-Debug-4dabc7e5492f65171c91.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "core_autogen::@57760688d1f824db5d9c",
+					"jsonFile" : "target-core_autogen-Debug-2a02232583283f190ceb.json",
+					"name" : "core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "core_autogen_timestamp_deps::@57760688d1f824db5d9c",
+					"jsonFile" : "target-core_autogen_timestamp_deps-Debug-d2b7392cd699eac841ed.json",
+					"name" : "core_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "devices::@0b66dd025354e08ea917",
+					"jsonFile" : "target-devices-Debug-dc351fe09feda3c5c672.json",
+					"name" : "devices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "devices_autogen::@0b66dd025354e08ea917",
+					"jsonFile" : "target-devices_autogen-Debug-717478941237ba8283e1.json",
+					"name" : "devices_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "devices_autogen_timestamp_deps::@0b66dd025354e08ea917",
+					"jsonFile" : "target-devices_autogen_timestamp_deps-Debug-dd3b4009b97b87ce2165.json",
+					"name" : "devices_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sim::@b622755370c2a46d4cb5",
+					"jsonFile" : "target-sim-Debug-3827ba4290385559d6be.json",
+					"name" : "sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sim_autogen::@b622755370c2a46d4cb5",
+					"jsonFile" : "target-sim_autogen-Debug-d575150a0a9d86ed8b49.json",
+					"name" : "sim_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sim_autogen_timestamp_deps::@b622755370c2a46d4cb5",
+					"jsonFile" : "target-sim_autogen_timestamp_deps-Debug-98f4011ad7d79394cdfe.json",
+					"name" : "sim_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Work/UpperPC_2_0/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Debug",
+		"source" : "D:/Work/UpperPC_2_0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

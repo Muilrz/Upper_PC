@@ -1,0 +1,837 @@
+{"payload":{},"topic":"sys/start","ts":1768839430402}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768839430495},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768839536330}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768839536429},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":2,"serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768839695074}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768839695176},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":1,"serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 bits=0x%3"},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768840155936}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768840156041},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":-1,"serial":""},"topic":"evt/mff/position"}
+{"payload":{"text":"readPosition: 未连接设备"},"topic":"evt/mff/error"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip failed: 未连接设备"},"topic":"evt/mff/error"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip failed: 未连接设备"},"topic":"evt/mff/error"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip failed: 未连接设备"},"topic":"evt/mff/error"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":2,"serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768840395878}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768840395975},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":-1,"serial":""},"topic":"evt/mff/position"}
+{"payload":{"text":"readPosition: 未连接设备"},"topic":"evt/mff/error"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":-1,"serial":""},"topic":"evt/mff/position"}
+{"payload":{"text":"readPosition: 未连接设备"},"topic":"evt/mff/error"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768840467666}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768840467758},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768840731473}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768840731565},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768840861709}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768840861805},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768840975505}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768840975602},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768841262061}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768841262159},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768842433796}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768842433890},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1768939470724}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1768939470833},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":1,"serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/disconnect"}
+{"payload":null,"topic":"evt/mff/disconnected"}
+{"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769350107035}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769350107140},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/disconnect"}
+{"payload":null,"topic":"evt/mff/disconnected"}
+{"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769350322155}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769350322249},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":2,"serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"interval_ms":200},"topic":"cmd/mff/startPolling"}
+{"payload":{"text":"polling started: 200 ms"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/stopPolling"}
+{"payload":{"text":"polling stopped"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/disconnect"}
+{"payload":null,"topic":"evt/mff/disconnected"}
+{"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769350500963}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769350501064},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":[],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 0 device(s)"},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769350522716}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769350522822},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"interval_ms":200},"topic":"cmd/mff/startPolling"}
+{"payload":{"text":"polling started: 200 ms"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/stopPolling"}
+{"payload":{"text":"polling stopped"},"topic":"evt/mff/log"}
+{"payload":{"interval_ms":200},"topic":"cmd/mff/startPolling"}
+{"payload":{"text":"polling started: 200 ms"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/stopPolling"}
+{"payload":{"text":"polling stopped"},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769350707827}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769350707928},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769352314594}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769352314685},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/disconnect"}
+{"payload":null,"topic":"evt/mff/disconnected"}
+{"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/readPosition"}
+{"payload":{"position":2,"serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769369546496}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769369546592},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769369794024}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769369794123},"topic":"sys/reset"}
+{"payload":{},"topic":"sys/start","ts":1769369815932}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769369816031},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/disconnect"}
+{"payload":null,"topic":"evt/mff/disconnected"}
+{"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769371462610}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769371462703},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000001"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000001"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000001"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000001"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/disconnect"}
+{"payload":null,"topic":"evt/mff/disconnected"}
+{"payload":{"text":"disconnected"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 1 device(s)"},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769371567131}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769371567241},"topic":"sys/reset"}
+{"payload":null,"topic":"cmd/mff/refresh"}
+{"payload":{"text":"refresh: TLI_BuildDeviceList 失败（设备被占用/驱动异常常见）"},"topic":"evt/mff/error"}
+{"payload":["37000001","37000002"],"topic":"evt/mff/devices"}
+{"payload":{"text":"refresh ok, found 2 device(s)"},"topic":"evt/mff/log"}
+{"payload":{"serial":"37000002"},"topic":"cmd/mff/connect"}
+{"payload":{"serial":"37000002"},"topic":"evt/mff/connected"}
+{"payload":{"text":"connected: 37000002"},"topic":"evt/mff/log"}
+{"payload":{"text":"home issued"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":1},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 1"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 1"},"topic":"evt/mff/log"}
+{"payload":{"position":1,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=1 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{"pos":2},"topic":"cmd/mff/flip"}
+{"payload":{"text":"flip to 2"},"topic":"evt/mff/log"}
+{"payload":{"text":"flip issued to 2"},"topic":"evt/mff/log"}
+{"payload":{"position":2,"reason":"After-Flip","serial":"37000002"},"topic":"evt/mff/position"}
+{"payload":{"text":"readOnce(After-Flip): pos=2 "},"topic":"evt/mff/log"}
+{"payload":{},"topic":"sys/start","ts":1769589408228}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769589408332},"topic":"sys/reset"}
+{"payload":{},"topic":"sys/start","ts":1769589501925}
+{"payload":{"payload":{},"topic":"sys/reset","ts":1769589502026},"topic":"sys/reset"}
